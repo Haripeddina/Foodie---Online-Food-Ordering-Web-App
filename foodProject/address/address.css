@@ -1,0 +1,17 @@
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.loc{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5%;
+}
+.loc button{
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 2%;
+}

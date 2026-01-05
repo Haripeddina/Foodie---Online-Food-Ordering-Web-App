@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="../bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="../navbar/index.css ">
+  </head>
+  <body style="background-color:hsl(38, 88%, 88%);">
+    <main>
+      <section class="container-fluid d-flex align-items-center justify-content-center ">
+        <form
+          action=""
+          class="container row justify-content-evenly align-items-center"
+          style="margin-top: 5%;"
+        >
+          <aside class="col-md-6 col-12">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              placeholder="Enter your name"
+              name="name"
+              id="name"
+            />
+          </aside>
+          <aside class="col-md-6 col-12">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              placeholder="Enter your email"
+              name="email"
+              id="email"
+            />
+          </aside>
+          <aside class="col-md-6 col-12">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              placeholder="Enter your password"
+              name="password"
+              id="password"
+            />
+          </aside>
+          <aside class="col-md-6 col-12">
+            <label for="">Contact</label>
+            <input
+              type="tel"
+              placeholder="Enter your contact no"
+              name="contact"
+              id="contact"
+            />
+          </aside>
+          <aside class="col-md-6 col-12">
+            <label for="gender">Gender</label>
+            <input type="radio" value="male" name="gender" />Male
+            <input type="radio" value="female" name="gender" />Female
+            <input type="radio" value="others" name="gender" />Others
+          </aside>
+          <aside class="col-md-6 col-12">
+            <label for="">Date of Birth</label>
+            <input type="date" name="dob" />
+          </aside>
+          <aside class="col-12 text-center">
+            <button>Submit</button>
+          </aside>
+        </form>
+      </section>
+    </main>
+
+    <script src="./index.js"></script>
+    <script src="../bootstrap/bootstrap.js"></script>
+    <script src="../navbar/index.js"></script>
+  </body>
+</html>

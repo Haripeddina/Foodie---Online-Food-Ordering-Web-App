@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../navbar/index.css" />
+    <link rel="stylesheet" href="../bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="../resgestration/index.css" />
+  </head>
+  <body style="background-color:hsl(38, 88%, 88%);">
+    <main class="container-sm ">
+      <form action="" class="container row my-5">
+        <aside class="col-12 col-md-6">
+          <label for="image">Upload Food Image</label>
+          <input type="file" name="image" />
+        </aside>
+        <aside class="col-12 col-md-6">
+          <label for="itemName">Item Name</label>
+          <input
+            type="text"
+            placeholder="Enter The Food Item Name"
+            name="itemName"
+          />
+        </aside>
+
+        <aside class="col-12 col-md-6">
+          <label for="quantity">Quantity</label>
+          <input
+            type="number"
+            placeholder="Enter the Quantity"
+            name="quantity"
+          />
+        </aside>
+
+        <aside class="col-12 col-md-6">
+          <label for="price">Price</label>
+          <input type="number" placeholder="Enter The Price" name="price" />
+        </aside>
+
+        <aside class="col-12 col-md-6">
+          <label for="category">Category</label>
+          <select name="category" id="category" name="category">
+            <option value="veg">Veg</option>
+            <option value="non-veg">Non-Veg</option>
+          </select>
+        </aside>
+
+        <aside class="col-12 col-md-6">
+          <label for="rating">Rating</label>
+          <input type="text" placeholder="Enter The Rating " name="rating" />
+        </aside>
+
+        <aside>
+          <button>Submit</button>
+        </aside>
+      </form>
+    </main>
+    <script src="../bootstrap/bootstrap.js"></script>
+    <script src="../navbar/index.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

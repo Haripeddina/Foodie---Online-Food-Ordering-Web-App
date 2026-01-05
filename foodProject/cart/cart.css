@@ -1,0 +1,9 @@
+#placeOrder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    width: 40%;
+    border-radius: 20px;
+    margin: 3% 0 0 30%;
+}
